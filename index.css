@@ -280,3 +280,27 @@ i[class*="van-type-"] {
   color: white;
   font-size: 1.125rem;
 }
+
+/* Media Queries */
+
+@media (min-width: 768px) and (orientation: landscape) {
+  .home-container {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
+      url("./assets/images/home-hero.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 580px;
+  }
+
+  .home-container h1,
+  .home-container p {
+    text-align: center;
+    margin: 5rem auto;
+  }
+
+  .home-container a {
+    margin-top: 5rem;
+  }
+}

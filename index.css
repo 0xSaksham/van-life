@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body a {
+  text-decoration: none;
+}
+
 html,
 body {
   margin: 0;
